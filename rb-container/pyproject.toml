@@ -1,0 +1,19 @@
+[project]
+name = "Repo-Bridge"
+version = "0.1.0"
+description = "A CLI tool to pull down git repos, read the code and document what the repo does based on code. It extracts APIs and specifications and schemas."
+requires-python = ">=3.9"
+dependencies = [
+    "click",
+    "pydantic"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
