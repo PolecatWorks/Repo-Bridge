@@ -1,0 +1,4 @@
+target_dir: "./.repos"
+repos:
+  - name: "click-repo"
+    url: "https://github.com/pallets/click.git"
